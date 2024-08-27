@@ -1,0 +1,131 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+    padding: 2%;
+    border: 1px solid black;
+    width: 100vw;
+}
+
+.game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid;
+    padding: 55px;
+    border-radius: 15px;
+    margin-top: 80px;
+
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.selections {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 1rem;
+}
+
+.selections button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.selections img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.score {
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.player-score {
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.computer-score {
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.game button {
+    padding: 15px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.game button p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.game button:hover {
+    background-color: rgb(238, 231, 130);
+    color: white;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.result p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.button-div {
+    cursor: pointer;
+
+}
+
+.button {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
